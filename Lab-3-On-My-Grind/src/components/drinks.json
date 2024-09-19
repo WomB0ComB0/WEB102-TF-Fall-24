@@ -1,0 +1,31 @@
+{
+  "drinks": [
+    {
+      "name": "Latte",
+      "ingredients": {
+        "temp": "hot",
+        "syrup": "none",
+        "milk": "cow",
+        "blended": "no"
+      }
+    },
+    {
+      "name": "Frappuccino",
+      "ingredients": {
+        "temp": "cold",
+        "syrup": "mocha",
+        "milk": "cow",
+        "blended": "yes"
+      }
+    },
+    {
+      "name": "Iced Caramel Macchiato",
+      "ingredients": {
+        "temp": "cold",
+        "syrup": "vanilla",
+        "milk": "cow",
+        "blended": "no"
+      }
+    }
+  ]
+}

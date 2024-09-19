@@ -40,3 +40,78 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background: black;
+  color: white;
+}
+
+.icons {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 25px 50px 75px 30px;
+}
+
+li.main-list {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+}
+
+.whole-page {
+  padding: 50px;
+  text-align: center;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 75px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 2px;
+}
+
+.page-link {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page-item.active .page-link {
+  background-color: white;
+  color: black;
+}
+
+.page-item.disabled .page-link {
+  color: #666;
+  pointer-events: none;
+}
+
+.page-link:hover:not(.disabled) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
