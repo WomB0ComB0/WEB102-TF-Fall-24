@@ -27,7 +27,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; 
 }
 
 h1 {
@@ -52,6 +52,41 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+th {
+  width: 120px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+
+.Event {
+  width: 100px;
+}
+
+.Event h5, .Event h6 {
+  line-height: 0px;
+  align-content: center;
+}
+
+.green {
+  background: rgb(202, 245, 222);
+}
+
+.blue {
+  background: rgb(190, 219, 229);
+}
+
+.pink {
+  background: pink;
 }
 
 @media (prefers-color-scheme: light) {
